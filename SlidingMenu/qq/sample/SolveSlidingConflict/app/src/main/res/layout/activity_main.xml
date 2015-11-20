@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.solveslidingconflict.SlidingMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:overScrollMode="never"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="#333"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/left_menu"/>
+    <ListView
+        android:id="@+id/listview"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
+</com.example.solveslidingconflict.SlidingMenu>

@@ -1,0 +1,1 @@
+该侧滑菜单是仿QQ的侧滑菜单，依赖库nineoldandroids。使用具体见Sample
